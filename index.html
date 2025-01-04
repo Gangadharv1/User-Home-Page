@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container" id="homePage">
+        <h1>Welcome</h1>
+        <button id="signupBtn">Sign Up</button>
+        <button id="signinBtn">Sign In</button>
+    </div>
+
+    <div class="form-container" id="formPage" style="display: none;">
+        <h1 id="formTitle"></h1>
+        <form id="userForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
